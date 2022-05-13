@@ -1,0 +1,91 @@
+INSTRUCTIONS
+
+Each round of cribbage involves three main phases: the DEAL and making the CRIB, the PLAY, and the SHOW.
+Points can be earned in each of these phases, although rarely in the first.
+The first player to have a point total of at least 121 wins the game.
+Play immediately ends, and other players do not have an opportunity to match or exceed this player's score.
+
+Face cards (Jack, Queen, King) contribute 10 toward the sum in the PLAY, and 10 to "fifteen" point scores
+in the PLAY and the SHOW. All other cards are worth their rank for these instances.
+
+Cribbage is traditionally played by 2 players, but the standard 3 person and solo 4 person rules have
+been implemented as well.
+
+THE DEAL AND MAKING THE CRIB
+
+Before starting play, each player will cut the deck for a card.
+The player with the lowest rank card is the dealer in the first round.
+In the case of a tie, the player who cut first is the first dealer.
+Dealer position rotates clockwise for the next round.
+
+After shuffling the deck, the dealer deals cards singly clockwise, starting with 
+the player directly left until the required number of cards to each player have been dealt.
+After dealing to players, if required, cards are dealt to the crib.
+
+After all required cards have been dealt, players must discard a required number of cards to the crib.
+The crib is an additional hand the dealer gets to score during the SHOW, so cards chosen
+to discard to the crib should depend on whose crib it is in the current round.
+
+Finally, the player directly to the left of the dealer cuts the remaining deck, and brings the card to the top.
+If this card is a Jack, the dealer scores 2 points from a "heel".
+This revealed top card, called the "starter", is an additional card added to each hand, including the crib,
+for scoring points during the SHOW.
+
+THE PLAY
+
+During the PLAY, players lay down cards until either the sum of cards played
+is 31, or until no player can play a card without exceeding 31.
+The play resets, with a sum of 0, and no previously played cards that can be scored on.
+Play keeps resetting when necessary, until all players have played all of their cards.
+
+During the PLAY, points can be scored as follows:
+1. "Fifteen-two" - Playing a card that makes the sum of points played 15 (2 points)
+2. "Runs" - Playing a card that results in at least three cards of ascending
+   rank being played successively, although not neccessarily in order
+   (1 point for each card in the run)
+3. "Pairs" - Playing a card that has the same rank of at least one directly
+   proceeding card (2 points for each distinct pair can be made from the cards of the same rank)
+4. "Go" - Playing a card that makes the sum of points played 31 (2 points),
+   or being the last player who played a card before resetting play (1 point)
+
+THE SHOW
+
+The SHOW consists of players counting points for the contents of their hand, plus the "starter" on top of the deck.
+Although some of the scoring categories are the same as the PLAY, there is no sequence of cards played to consider.
+The order of your cards may be rearranged to score points from any of following categories.
+
+During the SHOW, points can be scored as follows:
+1. "Fifteen" - Any distinct combination of cards that add up to 15 (2 points)
+2. "Runs" - Any sequence of at least 3 cards of ascending rank (1 point for each card in sequence)
+3. "Pairs" - Two cards of the same rank (2 points)
+4. "Flush" - All cards in hand are of the same suit (4 points), plus (1 point) if the "starter" is also the same suit
+5. "Nobs" - The player has a Jack that is the same suit as the "starter"
+
+The crib scores the same as above, except in the case of the "flush".
+A crib only scores a "flush" (5 points) if all cards, including the "starter", are the same suit.
+
+PROGRAM IMPLEMENTATION
+
+Most of cribbage play is done automatically by the program.
+There are four main parts of the program with user input beyond number of player selection: initial dealer selection,
+cutting of deck for "starter", discard to crib selection, and card selection for PLAY.
+
+For initial dealer selection, each player will get the option of selecting how many cards they would like to cut
+from the remaining deck before taking a card. Each player can select to not cut any cards and select the top card
+with an input of 0.
+
+For cutting the deck for "starter", the "pone", or the player to the dealer's left, can select how many cards to cut
+before selecting a card. As in initial dealer selection, the "pone" can choose the top card with 0.
+
+For discard to crib selection, each player will get a chance to look at their dealt hand, displayed from left to right.
+To select a card, input the number given to the card. The furthest left card is 1, will each card to the right being
+one number higher. As you discard cards to the crib, you will see your available hand and the numbers you can choose
+decrease.
+
+Selecting card for PLAY is very similar to discarding for crib selection. The main difference is that since a player
+may not be able to play a card, the program will automatically skip a player's turn if they can not play.
+Additionally, if a player attempts to play a card that would put the sum over 31, they will be asked to choose a
+different card. Since the program has checked to see if they have any playable cards, the player will be able to
+select a valid option.
+
+END OF INSTRUCTIONS
