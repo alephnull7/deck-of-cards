@@ -1,13 +1,11 @@
-// Class: CS 145
+// Programmer: Gregory Smith
 // Date: 04/26/2022
-// Assignment: Lab 4 - Deck of Cards
-// Reference: 
-// https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
-//
+// Program: Deck of Cards
+// Reference: https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
 // Purpose: Use the user defined DeckArray class to create
 // a stack implementation of a standard 52-card deck
 //
-// I used Eclipse for the creation of this class
+// IDE: Eclipse
 
 package deckOfCards;
 

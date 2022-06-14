@@ -1,11 +1,10 @@
-// Class: CS 145
+// Programmer: Gregory Smith
 // Date: 04/26/2022
-// Assignment: Lab 4 - Deck of Cards
-//
+// Program: Deck of Cards
 // Purpose: The client program, with the use of the user defined Cribbage class,
 // will simulate playing of cribbage games as indicated by user. 
 //
-// I used Eclipse for the creation of this class
+// IDE: Eclipse
 
 package deckOfCards;
 

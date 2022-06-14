@@ -1,13 +1,11 @@
-// Class: CS 145
+// Programmer: Gregory Smith
 // Date: 04/26/2022
-// Assignment: Lab 4 - Deck of Cards
-// Reference: 
-// https://en.wikipedia.org/wiki/Standard_52-card_deck
-//
+// Program: Deck of Cards
+// Reference: https://en.wikipedia.org/wiki/Standard_52-card_deck
 // Purpose: Use the user defined Card class to create
 // an array implementation of a standard 52-card deck
 //
-// I used Eclipse for the creation of this class
+// IDE: Eclipse
 
 package deckOfCards;
 

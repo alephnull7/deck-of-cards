@@ -1,8 +1,7 @@
-// Class: CS 145
+// Programmer: Gregory Smith
 // Date: 04/26/2022
-// Assignment: Lab 4 - Deck of Cards
-// Reference: 
-// https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html,
+// Program: Deck of Cards
+// Reference: https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html,
 // https://docs.oracle.com/javase/8/docs/api/java/io/File.html,
 // https://www.tutorialspoint.com/java-program-to-list-all-files-in-a-directory-recursively,
 // https://www.cs.montana.edu/users/paxton/cribbage.html,
@@ -12,7 +11,7 @@
 // Purpose: Use the user defined Card and DeckStack classes to simulate the behavior of
 // a cribbage game.
 //
-// I used Eclipse for the creation of this class
+// IDE: Eclipse
 
 package deckOfCards;
 
